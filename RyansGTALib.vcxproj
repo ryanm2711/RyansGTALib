@@ -178,6 +178,7 @@
     <ClInclude Include="src\GTA\PickupTypes.h" />
     <ClInclude Include="src\GTA\UI\Hud.h" />
     <ClInclude Include="src\Utility\Console.h" />
+    <ClInclude Include="src\Utility\Math.h" />
     <ClInclude Include="src\Utility\ScriptSettings.h" />
     <ClInclude Include="src\vendor\SimpleIni.h" />
   </ItemGroup>
@@ -186,6 +187,7 @@
     <ClCompile Include="src\GTA\Controls\Keyboard.cpp" />
     <ClCompile Include="src\GTA\UI\Hud.cpp" />
     <ClCompile Include="src\Utility\Console.cpp" />
+    <ClCompile Include="src\Utility\Math.cpp" />
     <ClCompile Include="src\Utility\ScriptSettings.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
