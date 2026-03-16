@@ -9,7 +9,7 @@ bool GTA::Controls::IsControlPressed(int index, ControlTypes control)
 
 bool GTA::Controls::IsControlJustPressed(int index, ControlTypes control)
 {
-	return PAD::IS_CONTROL_JUST_PRESSED(index, static_cast<int>(control));
+	return PAD::IS_DISABLED_CONTROL_JUST_PRESSED(index, static_cast<int>(control));
 }
 
 void GTA::Controls::EnableControlThisFrame(int index, ControlTypes control, bool enableRelatedActions)
