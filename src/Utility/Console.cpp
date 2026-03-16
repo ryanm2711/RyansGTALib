@@ -1,6 +1,5 @@
 #include "Console.h"
 #include <windows.h>
-#include <iostream>
 
 void Utility::CreateDebugConsole() {
 	AllocConsole();
@@ -10,7 +9,7 @@ void Utility::CreateDebugConsole() {
 	freopen_s(&f, "CONOUT$", "w", stderr);
 	freopen_s(&f, "CONIN$", "r", stdin);
 
-	std::cout << "RyansGTALib - Debug console initialized!" << std::endl;
+	Log("RyansGTALib - ", "Debug console initialized!");
 }
 
 void Utility::CloseDebugConsole() {
